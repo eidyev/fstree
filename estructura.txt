@@ -1,0 +1,41 @@
+app/
+├── src/
+│   ├── Application/
+│   │   ├── Auth/
+│   │   │   ├── Command/
+│   │   │   └── CommandHandler/
+│   │   ├── Notification/
+│   │   │   └── CommandHandler/
+│   │   ├── DeveloperPortal/
+│   │   │   └── CommandHandler/
+│   │   └── Analytics/
+│   │       └── QueryHandler/
+│   └── UI/
+│       ├── Http/
+│       │   ├── Controller/
+│       │   │   ├── RegistrationController.php
+│       │   │   ├── LoginController.php
+│       │   │   ├── DashboardController.php
+│       │   │   └── DeveloperController.php
+│       │   └── API/
+│       │       ├── UserController.php
+│       │       ├── AuthController.php
+│       │       └── DeveloperAPIController.php
+│       └── Web/
+│           ├── RegistrationWizard/
+│           │   ├── step1.html.twig
+│           │   ├── step2.html.twig
+│           │   └── step3.html.twig
+│           ├── Dashboard/
+│           │   └── dashboard.html.twig
+│           ├── DeveloperPortal/
+│           │   └── developer_dashboard.html.twig
+│           └── Shared/
+│               ├── base.html.twig
+│               └── theme.html.twig
+├── translations/
+│   ├── messages.en.yaml
+│   └── messages.es.yaml
+├── docker-compose.yml
+├── Makefile   # Opcional: comandos de build, migrate, fixtures
+└── README.md
