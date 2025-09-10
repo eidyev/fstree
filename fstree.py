@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 fstree.py - Exporta o reconstruye estructuras de directorios estilo 'tree'.
+Programador Eidy EV <eidyev@gmail.com>
 """
 from __future__ import annotations
 import os
